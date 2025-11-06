@@ -58,7 +58,7 @@ body
     height: 100%;
     justify-content:space-between ;
     height:100vh ;
-    background-image:url(home.jpg);
+    background-image:url(micky.jpg);
     background-size: cover;
     background-position:center ;
     display: flex;
@@ -600,3 +600,4 @@ input:focus, textarea:focus {
     flex: 1 1 100%;
   }
 }
+
