@@ -148,7 +148,6 @@ body
     0 0 25px cyan,0 0 50px cyan,
     0 0 100px cyan,0 0 200px cyan,
 }
-/* ===== General Page Style ===== */
 body {
     margin: 0;
     padding: 0;
@@ -208,20 +207,6 @@ body {
     font-size: 1rem;
     color: #bbb;
   }
-  
-  /* ===== Optional portfolio link ===== */
-  .portfolio-link {
-    margin-top: 20px;
-    display: inline-block;
-    color: #00ffff;
-    text-decoration: none;
-    font-weight: 600;
-    transition: color 0.3s;
-  }
-  
-  
-  
-
 body {
     margin: 0;
     padding: 0;
@@ -641,6 +626,7 @@ input:focus, textarea:focus {
     flex: 1 1 100%;
   }
 }
+
 
 
 
