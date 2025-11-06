@@ -148,38 +148,79 @@ body
     0 0 25px cyan,0 0 50px cyan,
     0 0 100px cyan,0 0 200px cyan,
 }
-.about{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    align-items: center;
-    gap: 1.5rem;
-}
-.about-img img{
-    padding-bottom: 20%;
-    max-width: 630px;
-    height: 100%;
-    width: 100%;
-    border-radius: 8px;
-}
-.about-text h2{
-    font-size: 60px;
-}
-.about-text h2 span{
-    color: #0ef;
-}
-.about-text h4{
-    font-size: 29px;
-    font-weight: 600;
+/* ===== General Page Style ===== */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    background: radial-gradient(circle at top left, #0f2027, #203a43, #2c5364);
     color: #fff;
-    line-height: 1.7;
-    margin: 15px 0 30px;
-}
-.about-text p{
-    color: aliceblue;
-    font-size: 20px;
-    line-height: 1.4;
-    margin-bottom: 4rem;
-}
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+  }
+  
+  
+  .about {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    border: 3px solid #00ffff;
+    box-shadow: 0 0 25px #00ffff, 0 0 60px #00ffff33;
+    overflow: hidden;
+    margin-bottom: 20px;
+    transition: 0.4s ease;
+  }
+  
+  .about:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 35px #00ffff, 0 0 80px #00ffff55;
+  }
+  
+  .about img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  
+  .about-section {
+    max-width: 600px;
+    text-align: center;
+    line-height: 1.6;
+  }
+  
+  .about-section h1 {
+    font-size: 2.2rem;
+    color: #00ffff;
+    margin-bottom: 5px;
+  }
+  
+  .about-section h3 {
+    font-size: 1.3rem;
+    color: #ccc;
+    margin-bottom: 15px;
+  }
+  
+  .about-section p {
+    font-size: 1rem;
+    color: #bbb;
+  }
+  
+  /* ===== Optional portfolio link ===== */
+  .portfolio-link {
+    margin-top: 20px;
+    display: inline-block;
+    color: #00ffff;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s;
+  }
+  
+  
+  
 
 body {
     margin: 0;
@@ -600,5 +641,6 @@ input:focus, textarea:focus {
     flex: 1 1 100%;
   }
 }
+
 
 
